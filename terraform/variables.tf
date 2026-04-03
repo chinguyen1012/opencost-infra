@@ -169,7 +169,7 @@ variable "argo_settings" {
   description = "Settings for the Argo CD installation"
 
   default = {
-    source_repo_url = "https://github.com/opencost/opencost-infra.git"
+    source_repo_url = "https://github.com/chinguyen1012/opencost-infra.git"
     target_revision = "main"
   }
 }
